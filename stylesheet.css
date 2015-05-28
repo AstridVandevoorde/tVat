@@ -1,0 +1,106 @@
+html{
+	margin:0;
+}
+body {
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	background-image:url("img/bg4.jpg");
+	background-repeat:repeat-x;
+	background-color:#cdc8d3;
+	background-position: bottom;
+}
+header#navigatie {
+	width: 100%;
+	height: 80px;
+	/*background-image: url("img/banner.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	/*background-color:rgb(16, 0, 22);*/
+	background-color:black;
+}
+header #logo{
+	float:left;
+	height: 50px;
+	margin-top:13px;
+	margin-left:25px;
+}
+#home{
+	color:rgb(225,225,0);
+}
+header a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	margin-right:2%;
+	margin-top: 40px;
+	font-size: 20px;
+}
+header a:hover{
+	transition: 1s;
+	color:rgb(255, 204, 255);
+}
+#slideshow{
+	height:300px;
+	width:100%;
+	background-image:url(img/foto_slider1.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+section{
+	background-color:rgba(234,232,229,0.6);
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+	overflow: auto;
+	margin-bottom: 3%;
+}
+section p{
+	font-weight: 400;
+	color:#383436;
+	
+}
+section p#over{
+	text-align: justify;
+	margin-top:40px;
+	margin-bottom: 10px;
+	margin-right:4%;
+	
+}
+section header{
+	padding-top:5px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color:#3b2b49;
+	height:25px;
+	border-top:solid 2px;
+}
+section h1{
+	margin:0;
+	color:white;
+	font-weight:300;
+	text-transform: uppercase;
+	
+}
+section #schild{
+	overflow: auto;
+	float:left;
+	height:200px;
+	margin-left:5%;
+	margin-top:20px;
+	margin-right:4%;
+	margin-bottom:20px;
+}
+section #clublied p{
+	text-align: center;
+}
+section #clublied{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+section p.refrein{
+	font-weight:700;
+}
