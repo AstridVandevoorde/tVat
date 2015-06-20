@@ -23,9 +23,6 @@ header #logo{
 	margin-top:10px;
 	margin-left:25px;
 }
-#home{
-	color: #fff000;
-}
 header a {
 	float: right;
 	text-decoration: none;
@@ -111,7 +108,7 @@ header a:hover{
 	-moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
 }
-/*=====END header====*/
+/*END header*/
 /*Sections*/
 section{
 	background-color:rgba(234,232,229,0.9);
@@ -143,6 +140,7 @@ section h1{
 	
 }
 /*======END sections=====*/
+/*=======Index==========*/
 section p#over{
 	text-align: justify;
 	margin-top:40px;
@@ -171,4 +169,31 @@ section #clublied{
 }
 section p.refrein{
 	font-weight:700;
+}
+/*=======Eind index=======*/
+/*=======Praesidium========*/
+#praesidium section{
+	margin-top:90px;
+}
+#praesidium #navigatie{
+	margin-top:-90px;
+}
+#praesidium main{
+	height:1000px;
+}
+.rij{
+	width:14.28%;
+	background-size: cover;
+	height:275px;
+	color:white;
+	background-position: center;
+	float:left;
+	font-weight:400;
+}
+.functie{
+	background-color:rgba(0,0,0,0.5);
+	text-align:center;
+}
+#praeses{
+	background-image:som
 }
