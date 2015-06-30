@@ -171,17 +171,18 @@ section p.refrein{
 	font-weight:700;
 }
 /*=======Eind index=======*/
-/*=======Praesidium========*/
-#praesidium section{
+/*========page========*/
+.page section:first-of-type{
 	margin-top:90px;
 }
-#praesidium #navigatie{
+.page #navigatie{
 	margin-top:-90px;
 }
-#praesidium main{
+.page main{
 	height:1000px;
 }
-.rij{
+/*=======Praesidium========*/
+#praesidium .rij{
 	width:14.28%;
 	background-size: cover;
 	height:275px;
@@ -190,10 +191,57 @@ section p.refrein{
 	float:left;
 	font-weight:400;
 }
-.functie{
+#praesidium .functie{
 	background-color:rgba(0,0,0,0.5);
 	text-align:center;
 }
-#praeses{
+#praesidium #praeses{
 	background-image:som
 }
+/*=======EndPraesidium=====*/
+#praesidium .rij{
+	width:14.28%;
+	background-size: cover;
+	height:275px;
+	color:white;
+	background-position: center;
+	float:left;
+	font-weight:400;
+}
+#praesidium .functie{
+	background-color:rgba(0,0,0,0.5);
+	text-align:center;
+}
+#praesidium #praeses{
+	background-image:som
+}
+/*========Media============*/
+.media .rij{
+	width:14.28%;
+	background-size: cover;
+	color:white;
+	height:150px;
+	background-position: center;
+	float:left;
+	font-weight:400;
+	position:relative;
+}
+#voltfoto{
+	display:inline-block;
+	float:right;
+	width:49.6%;
+	height:355px;
+}
+.voltrij{
+	height:50%;
+	background-size: cover;
+	background-position: center;
+	font-weight:400;
+	position:relative;
+}
+iframe{
+	border:0;
+ 	width:50.4%;
+}
+
+/*=========EndMedia==========*/
