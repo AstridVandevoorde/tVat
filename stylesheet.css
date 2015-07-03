@@ -2,8 +2,9 @@
 html{
 	margin:0;
 }
-
-
+::-webkit-scrollbar { 
+    display: none; 
+}
 
 header#navigatie {
 	width: 100%;
@@ -45,6 +46,7 @@ header a:hover{
 		background-repeat:repeat-x;
 		background-color:#cdcdcd;
 		background-position: bottom;
+        overflow: auto;
 	}
 	/*#slideshow{
 		height:350px;
@@ -75,6 +77,7 @@ header a:hover{
 		background-color:#120125;
 		background-position: top;
 		background-size: 100% auto;
+        overflow: auto,
 	}
 	/*#slideshow{
 		height:400px;
@@ -212,9 +215,6 @@ section p.refrein{
 	background-color:rgba(0,0,0,0.5);
 	text-align:center;
 }
-#praesidium #praeses{
-	background-image:som
-}
 /*========Media============*/
 .media .rij{
 	width:14.28%;
@@ -245,3 +245,34 @@ iframe{
 }
 
 /*=========EndMedia==========*/
+/*=========Activiteiten=======*/
+.evenementfoto{
+    height:200px;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+}
+^
+.sectionw p{
+    text-align: left;
+    margin:10px 10x 0px 10x;
+}
+.evenementText{
+    margin:10px;
+}
+.evenementText img{
+    float:right;
+    height:50px;
+    margin-top:-50px;
+    margin-bottom: 10px;
+}
+
+.sectionw .datum{
+	background-color:rgba(0,0,0,0.7);
+	text-align:center;
+    color:white;
+    font-size:25px;
+    width:200px;
+}
+
+/*======EindActiviteiten======*/
